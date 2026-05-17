@@ -1,0 +1,22 @@
+# PlatformIO
+.pio/
+.vscode/
+*.bin
+*.elf
+*.map
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# STM32CubeIDE
+Debug/
+Release/
+*.launch
+*.cfg
+
+# OS files
+.DS_Store
+Thumbs.db
+include/secrets.h
