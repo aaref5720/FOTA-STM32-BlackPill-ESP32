@@ -120,9 +120,6 @@ MEMORY
 |-----------|-----------|-------------|
 | PA9 (TX1) | GPIO16 (RX2) | STM32 transmits to ESP32 |
 | PA10 (RX1) | GPIO17 (TX2) | STM32 receives from ESP32 |
-| GND | GND | ⚠️ Must be connected |
-
-⚠️ GND must always be connected between the two boards. Without a common ground, UART signals will be corrupted.
 
 ---
 
